@@ -18,11 +18,11 @@ function App() {
         <li><button onClick={() => setFilter('d')}>d</button></li>
         <li><button onClick={() => setFilter('e')}>e</button></li>
       </nav>
-      {filter === 'a' && <BlogList />}
-      {filter === 'b' && <BlogForm />}
+      {filter === 'a' && <BlogForm />}
+      {filter === 'b' && <ContactForm />}
       {filter === 'c' && <ReadingApp />}
       {filter === 'd' && <BookmarkingApp />}
-      {filter === 'e' && <ContactForm />}
+      {filter === 'e' && <BlogList />}
     </div>
   );
 }
