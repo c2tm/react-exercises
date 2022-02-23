@@ -1,4 +1,4 @@
-import { useState } from "react/cjs/react.development"
+import { useState } from "react"
 
 function BlogPost({url, title, body, id, posts, setPosts, editToggle, setEditToggle}) {
 
